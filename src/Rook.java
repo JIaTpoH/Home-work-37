@@ -18,4 +18,7 @@ public class Rook {
   public int getColumn() {
     return column;
   }
+  public void setCoordinates(int row, int column) {
+    checkCoordinates(row,column);
+  }
 }
